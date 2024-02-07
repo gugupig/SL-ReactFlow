@@ -1,6 +1,6 @@
-# streamlit-custom-component
+# SL-ReactFlow
 
-Streamlit component that allows you to do X
+Streamlit's Reacflow component,use in my project...
 
 ## Installation instructions
 

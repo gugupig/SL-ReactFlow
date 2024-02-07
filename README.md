@@ -1,6 +1,6 @@
 # SL-ReactFlow
 
-Streamlit's Reacflow (https://reactflow.dev/) component, there is a similar component : streamlit-react-flow but it is out of date (last update 3 years ago)
+Streamlit's Reactflow (https://reactflow.dev/) component, there is a similar component : streamlit-react-flow but it is out of date (last update 3 years ago)
 so I make this for my own project
 
 ## Installation instructions

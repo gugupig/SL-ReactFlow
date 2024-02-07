@@ -1,0 +1,5 @@
+/build
+/dist
+/e2e
+/SL_ReactFlow.egg-info
+/streamlit_custom_component.egg-info

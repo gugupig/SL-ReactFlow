@@ -6,7 +6,6 @@ interface NodeData {
   label: string;
 }
 
-{/* const MultiPurposeNode: React.FC<{ data: NodeData }> = ({ data }) => { */}
 const MultiPurposeNode: React.FC<{ data: NodeData }> = ({ data }) => {
   const inlineStyle = {
     display: 'inline-block',
@@ -15,7 +14,7 @@ const MultiPurposeNode: React.FC<{ data: NodeData }> = ({ data }) => {
     borderRadius: '4px',
     backgroundColor: '#fff',
     maxWidth: '200px',
-    height: 'au',
+    height: 'auto',
     overflow: 'hidden',
     
     

@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="SL_ReactFlow",
-    version="0.0.1",
+    version="0.0.3",
     author="Kurros_LAN",
     author_email="gugupig@hotmail.com",
     description="A new Reacflow component",

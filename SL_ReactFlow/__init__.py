@@ -43,7 +43,7 @@ else:
 # `declare_component` and call it done. The wrapper allows us to customize
 # our component's API: we can pre-process its input args, post-process its
 # output value, and add a docstring for users.
-def SL_ReactFlow(name, label,numClicks,key=None):
+def SL_ReactFlow(name, canvasStyle,label,numClicks,lastClickButton,canvas,key=None):
     """Create a new instance of "SL_ReactFlow".
 
     Parameters
@@ -70,7 +70,7 @@ def SL_ReactFlow(name, label,numClicks,key=None):
     #
     # "default" is a special argument that specifies the initial return
     # value of the component before the user has interacted with it.
-    component_value = _sl_rectflow_func(name=name, label = label ,numClicks = numClicks,key=key, default=0)
+    component_value = _sl_rectflow_func(name=name,canvasStyle=canvasStyle,label = label ,numClicks = numClicks,lastClickButton = lastClickButton,canvas = canvas,key=key, default=0)
 
     # We could modify the value returned from the component if we wanted.
     # There's no need to do this in our simple example - but it's an option.
